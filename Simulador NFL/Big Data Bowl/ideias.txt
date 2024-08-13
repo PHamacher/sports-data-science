@@ -1,0 +1,36 @@
+stats de QB: pocket presence, decision making
+qual QB fez mais com menos (proteção, separação dos recebedores)
+
+quais rotas são boas contra quais proteções
+
+IA play designer
+
+classificador de rotas (comparar supervisionado vs não)
+classificador de coverages
+
+AI simulando processamento de QB -> classificador tentando reproduzir oq aconteceu
+vs AI _otimizando_ processamento de QB -> reinforcement learning
+input (por frame): posições all22, distancia EDGEs-QB, dist WR-CB+próx, próximos passos das rotas?
+-> talvez: down, distance, tempo de jogo? (impactam no EPA e se o cara quer passe longo ou curto)
+output (por frame): movimentar-se numa direção ou lançar a bola pra alguem
+
+prever accuracy com dados all22 DONE
+
+inferir fórmula do EPA
+
+juntar fórmula EPA e expected accuracy pra avaliar decision making de cada qb
+
+comparar pass probability de plays.csv2024 com oq foi chamado (classificador de OCs, quais mais surpreendem/são previsíveis)
+
+minha conta de Line of Scrimmage tá 10 jardas errada???
+
+add
+YAC (e expected YAC na hora do passe)
+faltas
+play action
+motion
+stunts
+bump coverage
+turnovers
+'visão' do QB (túnel) lendo as reads
+delay do QB entre ver o WR e lançar (processamento, throwing motion speed)

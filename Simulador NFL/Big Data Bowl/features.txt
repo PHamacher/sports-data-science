@@ -1,0 +1,14 @@
+2021
+2018 passes
++ epa play, #pass rushers, route type
+- formação defensiva, dados espaciais linemen
+
+2023
+2021 passes
++ formação defensiva, dados espaciais all-22, pffScoutingData
+- epa play, #pass rushers, route type
+
+2024
+2022 passes completos e corridas
++ all-22, all plays, epa, defenders in the box, pass probability
+- #pass rushers, route type. formação defensiva
